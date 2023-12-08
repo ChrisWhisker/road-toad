@@ -225,11 +225,11 @@ Binaries/*
 Plugins/*/Binaries/*
 
 # Builds
-Build/*
+# Build/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
-!Build/*/
-Build/*/**
+# !Build/*/
+# Build/*/**
 !Build/*/PakBlacklist*.txt
 
 # Don't ignore icon files in Build
