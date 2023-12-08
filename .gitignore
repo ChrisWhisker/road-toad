@@ -307,7 +307,7 @@ $RECYCLE.BIN/
 *.msp
 
 # Windows shortcuts
-*.lnk
+# *.lnk
 
 ### VisualStudio ###
 ## Ignore Visual Studio temporary files, build results, and
