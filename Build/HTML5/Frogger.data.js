@@ -173,6 +173,6 @@ Module['FS_createPath']('/Frogger/Content', 'Paks', true, true);
   }
 
  }
- loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 87, "filename": "/UE4CommandLine.txt"}, {"start": 87, "audio": 0, "end": 49445302, "filename": "/Frogger/Content/Paks/Frogger-HTML5.pak"}], "remote_package_size": 49445302, "package_uuid": "f1c1bcfb-d311-483f-bf0b-fcfe40e892cb"});
+ loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 87, "filename": "/UE4CommandLine.txt"}, {"start": 87, "audio": 0, "end": 49445302, "filename": "/Frogger/Content/Paks/Frogger-HTML5.pak"}], "remote_package_size": 49445302, "package_uuid": "cb29080c-e79d-48fc-8de6-10bc4131b5ca"});
 
 })();
