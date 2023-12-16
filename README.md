@@ -1,9 +1,7 @@
-[Play the game here](https://chriswhisker.github.io/frogger)
-| Action      | Controls             |
-|-------------|----------------------|
-| Move camera | mouse                |
-| Move frog   | WASD / arrow keys    |
-| Jump        | space bar            |
-| Night mode  | ! (exclamation mark) |
+[Play the game here](https://chriswhisker.github.io/frog-crossing)
 
-![frogger](https://github.com/ChrisWhisker/frogger/assets/6521800/e40b248c-222e-4d16-98f3-526ca278a29b)
+[![Low-poly frog seen from above preparing to cross a busy highway][1]][2]
+
+[1]: https://github.com/ChrisWhisker/frogger/assets/6521800/e40b248c-222e-4d16-98f3-526ca278a29b
+
+[2]: https://chriswhisker.github.io/frog-crossing
