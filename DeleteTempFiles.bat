@@ -7,7 +7,7 @@ echo.
 for /d %%d in (".vs", "Binaries", "Build", "Intermediate", "Saved", "DerivedDataCache", "Content\DownloadCache") do (
     @IF EXIST "%%d" rd /s /q %%d
 )
-if exist "Glowstick.sln" del /q "Glowstick.sln"
+if exist "Frogger.sln" del /q "Frogger.sln"
 
 @REM Check if Unreal tasks are running
 @REM tasklist | findstr /i /r "UnrealEditor.exe" > nul
