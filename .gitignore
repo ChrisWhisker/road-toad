@@ -238,6 +238,7 @@ Intermediate/*
 MigrationBackup/
 OpenCover/
 Package.StoreAssociation.xml
+Plugins/*
 Plugins/**/Binaries/*
 Plugins/**/Intermediate/*
 Plugins/*/Binaries/*
