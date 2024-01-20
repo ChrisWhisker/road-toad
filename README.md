@@ -26,7 +26,7 @@ Once Early Access is completed, Road Toad will be offered at an affordable price
 
 ## Steam Preview
 
-Check out this preview of the Steam page.
+[Find Road Toad on Steam here.](https://store.steampowered.com/app/2744840/Road_Toad/)
 
 
 
