@@ -32,6 +32,7 @@ void AMovable::BeginPlay()
 		if (!GameModeBase)
 		{
 			UE_LOG(LogTemp, Error, TEXT("No game mode found."));
+			return;
 		}
 		RoadToadGameMode = Cast<ARoadToadGameMode>(GameModeBase);
 		if (!RoadToadGameMode)
