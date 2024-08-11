@@ -1,0 +1,27 @@
+# Ensure C++ source and header files are treated as text
+*.h     text
+*.cpp   text
+*.hpp   text
+*.inl   text
+
+# Treat Unreal Engine-specific files as text
+*.uproject text
+*.uplugin  text
+*.ini      text
+
+# Ignore binary files
+*.exe  binary
+*.dll  binary
+*.lib  binary
+*.a    binary
+*.so   binary
+*.dylib binary
+*.pdb  binary
+
+# Handle line endings automatically
+* text=auto
+
+# LFS for large binary files (optional)
+# Uncomment if you're using Git LFS for large files
+# *.uasset filter=lfs diff=lfs merge=lfs -text
+# *.umap filter=lfs diff=lfs merge=lfs -text
