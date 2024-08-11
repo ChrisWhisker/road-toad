@@ -13,5 +13,4 @@ UCLASS()
 class ROADTOAD_API ULifeCycleSubsystem : public UGameInstanceSubsystem
 {
 	GENERATED_BODY()
-	
 };

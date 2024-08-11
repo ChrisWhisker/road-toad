@@ -15,16 +15,18 @@ class ROADTOAD_API ACar : public AMovable
 	GENERATED_BODY()
 
 public:
-	// Sets default values for this actor's properties
 	ACar();
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+	// ReSharper disable once CppEnforceOverridingFunctionStyle
 	void SpawnPowerUp(bool Bubble) override;
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+	// ReSharper disable once CppEnforceOverridingFunctionStyle
 	void DespawnPowerUps() override;
 
 protected:
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+	// ReSharper disable once CppEnforceOverridingFunctionStyle
 	void Respawn() override;
 };

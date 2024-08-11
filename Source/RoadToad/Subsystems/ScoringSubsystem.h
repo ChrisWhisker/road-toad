@@ -7,7 +7,6 @@
 #include "ScoringSubsystem.generated.h"
 
 class ARoadToadGameState;
-// class URootWidget;
 class URoadToadHUD;
 
 /**
@@ -29,9 +28,7 @@ public:
 	void UpdateScoreMultiplier(int LevelNumber);
 
 private:
-	/**
-	 * New points added are multiplied by this number. Depends on the current level.
-	 */
+	// New points added are multiplied by this number. Depends on the current level.
 	UPROPERTY()
 	float ScoreMultiplier = 1;
 

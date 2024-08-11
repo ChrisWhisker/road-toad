@@ -1,4 +1,4 @@
- // Copyright © 2023-2024 Chris Worcester. All rights reserved.
+// Copyright © 2023-2024 Chris Worcester. All rights reserved.
 
 #pragma once
 
@@ -13,5 +13,4 @@ UCLASS()
 class ROADTOAD_API UGameFlowSubsystem : public UGameInstanceSubsystem
 {
 	GENERATED_BODY()
-	
 };

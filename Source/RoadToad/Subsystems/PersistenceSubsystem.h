@@ -3,8 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Subsystems/GameInstanceSubsystem.h"
 #include "RoadToad/RoadToadSaveGame.h"
+#include "Subsystems/GameInstanceSubsystem.h"
 #include "PersistenceSubsystem.generated.h"
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnDataLoaded, URoadToadSaveGame*, NewSaveData);
@@ -74,5 +74,6 @@ private:
 	bool DataIsDirty = false;
 
 	UPROPERTY()
+	// ReSharper disable once CppUE4CodingStandardNamingViolationWarning
 	FString SLOT_NAME = "Default Slot";
 };

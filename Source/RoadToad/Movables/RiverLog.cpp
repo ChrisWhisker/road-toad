@@ -13,7 +13,7 @@ void ARiverLog::Respawn_Implementation()
 	Super::Respawn();
 }
 
-void ARiverLog::SpawnPowerUp_Implementation(bool Bubble)
+void ARiverLog::SpawnPowerUp_Implementation(const bool Bubble)
 {
 	Super::SpawnPowerUp(Bubble);
 }

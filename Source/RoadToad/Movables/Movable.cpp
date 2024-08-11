@@ -3,19 +3,14 @@
 
 #include "Movable.h"
 
-#include <Kismet/GameplayStatics.h>
-
-#include "RoadToad/PowerUp.h"
+#include "Kismet/GameplayStatics.h"
 #include "RoadToad/RoadToadGameMode.h"
 
-// Sets default values
+// ReSharper disable once CppPossiblyUninitializedMember
 AMovable::AMovable()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
-	// BubblePowerUp = CreateDefaultSubobject<UPowerUp>(FName("Bubble PowerUp"));
-	// SlowMoPowerUp = CreateDefaultSubobject<UPowerUp>(FName("SlowMo PowerUp"));
 }
 
 void AMovable::SpawnPowerUp(bool Bubble)
@@ -26,7 +21,6 @@ void AMovable::DespawnPowerUps()
 {
 }
 
-// Called when the game starts or when spawned
 void AMovable::BeginPlay()
 {
 	Super::BeginPlay();
@@ -51,7 +45,6 @@ void AMovable::Respawn()
 {
 }
 
-// Called every frame
 void AMovable::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);

@@ -108,7 +108,8 @@ void UPersistenceSubsystem::OnLoad(const FString& SlotName, const int32 UserInde
 	if (!LoadedGameData)
 	{
 		UE_LOG(LogTemp, Log, TEXT("No save data found. Creating new save data."));
-		const TObjectPtr<USaveGame> NewSaveGame = UGameplayStatics::CreateSaveGameObject(URoadToadSaveGame::StaticClass());
+		const TObjectPtr<USaveGame> NewSaveGame = UGameplayStatics::CreateSaveGameObject(
+			URoadToadSaveGame::StaticClass());
 		SaveData = Cast<URoadToadSaveGame>(NewSaveGame);
 		DataLoaded.Broadcast(SaveData);
 		return;

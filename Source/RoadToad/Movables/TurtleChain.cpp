@@ -13,7 +13,7 @@ void ATurtleChain::Respawn_Implementation()
 	Super::Respawn();
 }
 
-void ATurtleChain::SpawnPowerUp_Implementation(bool Bubble)
+void ATurtleChain::SpawnPowerUp_Implementation(const bool Bubble)
 {
 	Super::SpawnPowerUp(Bubble);
 }

@@ -2,15 +2,13 @@
 
 
 #include "PowerUpSubsystem.h"
-
-#include <Kismet/GameplayStatics.h>
-
-#include "RoadToad/Movables/Car.h"
-#include "RoadToad/Movables/RiverLog.h"
-#include "RoadToad/Movables/TurtleChain.h"
-#include "RoadToad/Movables/Movable.h"
+#include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "RoadToad/ToadCharacter.h"
+#include "RoadToad/Movables/Car.h"
+#include "RoadToad/Movables/Movable.h"
+#include "RoadToad/Movables/RiverLog.h"
+#include "RoadToad/Movables/TurtleChain.h"
 
 bool UPowerUpSubsystem::Setup()
 {

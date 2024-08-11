@@ -12,18 +12,15 @@ class ROADTOAD_API AToadCharacter : public ACharacter
 	GENERATED_BODY()
 
 public:
-	// Sets default values for this character's properties
 	AToadCharacter();
 
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	float ThisToadDistanceRecord;
 
 protected:
-	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
-	// Called every frame
+public:
 	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input

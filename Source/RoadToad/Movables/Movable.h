@@ -15,14 +15,7 @@ class ROADTOAD_API AMovable : public AActor
 	GENERATED_BODY()
 	
 public:	
-	// Sets default values for this actor's properties
 	AMovable();
-
-	// UPROPERTY()
-	// UPowerUp* BubblePowerUp;
-	//
-	// UPROPERTY()
-	// UPowerUp* SlowMoPowerUp;
 
 	// Speed at levels > 1 is determined by this number and the level number
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
@@ -37,7 +30,6 @@ public:
 	virtual void DespawnPowerUps();
 
 protected:
-	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
@@ -58,6 +50,5 @@ protected:
 	virtual void Respawn();
 
 public:	
-	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 };

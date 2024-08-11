@@ -66,12 +66,6 @@ private:
 	UPROPERTY()
 	float MovableSlowFactor = 4;
 
-	// UPROPERTY()
-	// TObjectPtr<AAmbientSound> MusicActor;
-
-	// UPROPERTY()
-	// TObjectPtr<ADirectionalLight> SunLight;
-
 	UFUNCTION()
 	bool Setup();
 

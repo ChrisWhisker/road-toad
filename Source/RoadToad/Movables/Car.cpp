@@ -13,7 +13,7 @@ void ACar::Respawn_Implementation()
 	Super::Respawn();
 }
 
-void ACar::SpawnPowerUp_Implementation(bool Bubble)
+void ACar::SpawnPowerUp_Implementation(const bool Bubble)
 {
 	Super::SpawnPowerUp(Bubble);
 }
